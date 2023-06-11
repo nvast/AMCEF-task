@@ -1,0 +1,34 @@
+.item{
+    width: auto;
+    max-width: 20rem;
+    min-width: 15rem;
+    background-color: white;
+    border-radius: 30px;
+    padding: 1.5rem 2rem 0;
+    margin: 2rem;
+    overflow-wrap: break-word;
+    position: relative;
+    overflow: hidden;
+}
+
+.item-active, .item-delete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.editable{
+    box-shadow: -1px 2px 38px 6px rgba(255,132,0,0.75);
+    -webkit-box-shadow: -1px 2px 38px 6px rgba(255,132,0,0.75);
+    -moz-box-shadow: -1px 2px 38px 6px rgba(255,132,0,0.75);
+}
+
+.editable p, h3:focus{
+    outline: none;
+}
+
+

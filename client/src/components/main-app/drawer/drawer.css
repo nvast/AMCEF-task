@@ -1,0 +1,35 @@
+.toogle-drawer{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.icon-drawer{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid black;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-icon{
+    justify-content: center;
+    min-width: 3px;
+    padding: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.list-item:hover{
+    cursor: pointer;
+    background-color: rgba(230, 227, 227, 0.4);
+}
+
+.list-text{
+    padding-left: 0;
+    min-width: 6.5rem !important;
+    display: flex;
+    align-items: center;
+}
