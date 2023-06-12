@@ -14,12 +14,14 @@ export default function Add({ handleSubmit, handleInput, createData }: AddCompon
   const [isOver, setIsOver] = useState(false);
 
   return (
-    <div className={`container container-add ${isFocused || isOver ? "expanded" : ""}`}>
+    <div className="container container-add">
+        
       <form 
         onSubmit={handleSubmit}
         className="add-item"
         onMouseEnter={() => setIsOver(true)}
         onMouseLeave={() => setIsOver(false)}
+        style={{ height: isFocused || isOver ? "13rem" : "5rem", transition: "height 0.3s ease" }}
       >
         <input
           name="title"
